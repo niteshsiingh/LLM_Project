@@ -9,6 +9,7 @@ Trains a binary classifier for toxicity detection:
 - Base model: GPT-2 Medium
 - Dataset: Jigsaw Toxic Comment Classification Dataset
 - Output: Saves finetuned model as `best_model_state.bin`
+- Our models can be found at [Binary Classification Model](https://drive.google.com/file/d/1va9T-LjT07CpnhN3kZk8fxVZeteF9x2t/view).
 - Metrics tracked: Accuracy, F1 Score, Loss
 
 ### 2. `counterspeech_generation.ipynb`
@@ -16,6 +17,7 @@ Generates non-toxic responses to toxic comments:
 - Models used: Finetuned GPT-2 medium
 - Dataset: Counter Speech Dataset for Toxic Language 
 - Output: Counter-speech generation model saved in `saved_models` directory with naming format `LR_{Learning_Rate}_BS_{Batch_Size}_E_{Epochs}`
+- All three models can be found at [Counterspeech Generation Model](https://www.kaggle.com/datasets/niteshsingh234/models).
 
 ### 3. `value_vector_analysis.ipynb`
 Initial value vector analysis:
