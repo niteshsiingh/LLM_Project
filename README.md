@@ -51,5 +51,5 @@ pip install torch==1.9.0 transformers==4.11.3 transformer_lens==0.3.0 nltk==3.6.
 
 ## Notes
 - Models require GPU with 12GB+ memory
-- Full training takes 4-6 hours on V100
-- Save all intermediate model checkpoints
+- Full training takes 4-6 hours on P100
+- Save all best model checkpoints
